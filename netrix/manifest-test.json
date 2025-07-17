@@ -1,0 +1,9 @@
+{
+  "mods": [
+    {
+      "name": "example-mod-1.0.0.jar",
+      "filename": "example-mod-1.0.0.jar",
+      "description": "Example mod file"
+    }
+  ]
+}

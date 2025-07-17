@@ -1,0 +1,93 @@
+/* EOL Modal Styles */
+.eol-modal {
+  max-width: 500px;
+  max-height: 80vh;
+  background: linear-gradient(135deg, rgba(255, 76, 76, 0.4) 0%, rgba(255, 152, 0, 0.4) 100%);
+  border: 2px solid rgba(255, 76, 76, 0.6);
+  box-shadow: 0 20px 50px rgba(255, 76, 76, 0.4);
+}
+
+.eol-modal .modal-header {
+  background: linear-gradient(135deg, rgba(255, 76, 76, 0.5) 0%, rgba(255, 152, 0, 0.5) 100%);
+  border-bottom: 1px solid rgba(255, 76, 76, 0.6);
+}
+
+.eol-modal .modal-title {
+  color: #ff4c4c;
+  font-weight: 600;
+  background: rgba(30, 30, 30, 0.95);
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  border: 1px solid rgba(255, 76, 76, 0.3);
+}
+
+.eol-modal .modal-title svg {
+  color: #ff4c4c;
+}
+
+.eol-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+}
+
+.eol-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: rgba(255, 76, 76, 0.3);
+  border: 2px solid rgba(255, 76, 76, 0.6);
+}
+
+.eol-icon svg {
+  color: #ff4c4c;
+}
+
+.eol-message {
+  max-width: 400px;
+  padding: 1rem;
+  background: rgba(30, 30, 30, 0.95);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 76, 76, 0.3);
+}
+
+.eol-message p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.eol-modal .modal-footer {
+  background: linear-gradient(135deg, rgba(255, 76, 76, 0.25) 0%, rgba(255, 152, 0, 0.25) 100%);
+  border-top: 1px solid rgba(255, 76, 76, 0.5);
+  display: flex;
+  justify-content: center;
+  padding: 16px 24px 24px;
+}
+
+.eol-acknowledge-button {
+  background: var(--accent-primary);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s;
+  min-width: 120px;
+}
+
+.eol-acknowledge-button:hover {
+  background: var(--accent-secondary);
+}
+
+.eol-acknowledge-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 212, 255, 0.5);
+}
