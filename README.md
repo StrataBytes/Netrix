@@ -94,6 +94,22 @@ Dynamic content (such as modpacks, server status and news updates) is **not hidd
 
 This means you can always see exactly what Netrix is loading - no surprises, no secrets.
 
+---
+## Screenshots
+
+> Main Dashboard
+<img width="1620" height="886" alt="main" src="https://github.com/user-attachments/assets/8e0d0473-7a6a-4496-ae89-1f53c4231ea7" />
+
+> News tab
+<img width="1605" height="878" alt="news" src="https://github.com/user-attachments/assets/dc48a883-12d1-41b2-9173-11e41d9992cc" />
+
+> Status tab
+<img width="1614" height="877" alt="status" src="https://github.com/user-attachments/assets/fd660920-4563-4645-b90d-6bd544318e4d" />
+
+> Modpack Manager
+<img width="1618" height="983" alt="modpack" src="https://github.com/user-attachments/assets/1c609b14-f4c8-43fb-bf30-c788d1a2f4a9" />
+
+
 
 ## License
 
