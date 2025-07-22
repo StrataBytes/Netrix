@@ -29,10 +29,9 @@
 
 ## Tech Used
 
-- [Electron](https://www.electronjs.org/) — Cross-platform desktop framework  
-- [Vite](https://vitejs.dev/) — Frontend tooling  
-- [TypeScript](https://www.typescriptlang.org/)  
-- [Node.js](https://nodejs.org/)  
+- Vite — Frontend tooling  
+- TypeScript
+- Node.js
 - JSON for modpack and status config  
 - GitHub for dynamic content delivery
 
